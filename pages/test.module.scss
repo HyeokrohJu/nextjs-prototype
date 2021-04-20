@@ -1,0 +1,7 @@
+@import 'scss/_variables.scss';
+@import 'scss/_mixin.scss';
+
+.container {
+  font-size: $font-size;
+  @include ellipsis();
+}
